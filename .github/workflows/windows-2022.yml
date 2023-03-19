@@ -2,7 +2,7 @@ name: windows-2022
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
     paths:
       - .github/workflows/windows-2022.yml
 
