@@ -47,8 +47,8 @@ def raw_input_block():
 
 def terminal_width():
     """Return estimated terminal width."""
-    if sys.platform == 'win32':
-        return win32utils.get_console_size()[0]
+    #if sys.platform == 'win32':
+    #    return win32utils.get_console_size()[0]
     width = DEFAULT_NUM_COLS
     try:
         import struct
