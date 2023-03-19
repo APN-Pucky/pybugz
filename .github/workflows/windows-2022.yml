@@ -23,4 +23,4 @@ jobs:
         with:
           packages: "wget, gcc-g++"
 
-      - run: bugz --version
+      - run: bash -c "bugz --version"
